@@ -1,0 +1,17 @@
+Comando: clear
+
+📖 Descripción:
+Limpia la pantalla del terminal, eliminando el contenido visible.
+
+🛠️ Uso:
+clear
+
+🔹 Ejemplos:
+
+clear   # Limpia la pantalla del terminal  
+
+📝 Opciones más usadas:
+No tiene opciones adicionales.
+
+ℹ️ Información adicional:
+Para más detalles: man clear

@@ -1,0 +1,25 @@
+Comando: wc
+
+📖 Descripción:
+Cuenta líneas, palabras y caracteres en un archivo o entrada estándar.
+
+🛠️ Uso:
+wc [opciones] [archivo]
+
+🔹 Ejemplos:
+
+wc archivo.txt   # Muestra líneas, palabras y caracteres  
+wc -l archivo.txt   # Cuenta solo las líneas  
+wc -w archivo.txt   # Cuenta solo las palabras  
+wc -c archivo.txt   # Cuenta el número de bytes  
+cat archivo.txt | wc -w   # Cuenta palabras en la salida de otro comando  
+
+📝 Opciones más usadas:
+
+    -l → Muestra solo el número de líneas
+    -w → Muestra solo el número de palabras
+    -c → Muestra el número de bytes
+    -m → Muestra el número de caracteres
+
+ℹ️ Información adicional:
+Para más detalles: man wc

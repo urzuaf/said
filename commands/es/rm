@@ -1,0 +1,26 @@
+Comando: rm
+
+📖 Descripción:
+Elimina archivos y directorios de forma permanente.
+
+🛠️ Uso:
+
+rm [opciones] [archivo o directorio]
+
+🔹 Ejemplos:
+
+rm archivo.txt         # Elimina un archivo  
+rm -r carpeta/         # Elimina una carpeta y su contenido  
+rm -i archivo.txt      # Pregunta antes de eliminar  
+rm -f archivo.txt      # Fuerza la eliminación sin preguntar  
+rm -rf carpeta/        # Elimina una carpeta y su contenido sin confirmación  
+
+📝 Opciones más usadas:
+
+    -r → Elimina directorios y su contenido recursivamente
+    -f → Fuerza la eliminación sin preguntar
+    -i → Pregunta antes de eliminar cada archivo
+    -v → Muestra detalles de los archivos eliminados
+
+ℹ️ Información adicional:
+Para más detalles: man rm

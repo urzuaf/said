@@ -1,0 +1,23 @@
+Comando: kill
+
+📖 Descripción:
+Envía una señal a un proceso para finalizarlo o interrumpirlo.
+
+🛠️ Uso:
+kill [opciones] [pid]
+
+🔹 Ejemplos:
+
+kill 1234   # Envía la señal SIGTERM al proceso con PID 1234  
+kill -9 1234   # Envía la señal SIGKILL al proceso, forzando su terminación  
+kill -SIGSTOP 1234   # Detiene el proceso temporalmente  
+
+📝 Opciones más usadas:
+
+    -9 → Envía la señal SIGKILL (termina el proceso inmediatamente)
+    -SIGTERM → Envia la señal SIGTERM (termina el proceso de manera controlada)
+    -SIGSTOP → Detiene el proceso sin finalizarlo
+    -l → Muestra una lista de señales disponibles
+
+ℹ️ Información adicional:
+Para más detalles: man kill

@@ -1,0 +1,25 @@
+Comando: chmod
+
+📖 Descripción:
+Cambia los permisos de archivos y directorios en Linux.
+
+🛠️ Uso:
+chmod [modo] archivo
+
+🔹 Ejemplos:
+
+chmod 644 archivo.txt   # Permisos de lectura/escritura para el dueño, solo lectura para otros  
+chmod +x script.sh   # Da permisos de ejecución al archivo  
+chmod -R 755 carpeta/   # Cambia permisos recursivamente en una carpeta  
+chmod u=rwx,g=rx,o=r archivo.txt   # Asigna permisos de forma simbólica  
+
+📝 Opciones más usadas:
+
+    u → Usuario propietario
+    g → Grupo
+    o → Otros
+    +x → Agrega permiso de ejecución
+    -R → Aplica cambios recursivamente
+
+ℹ️ Información adicional:
+Para más detalles: man chmod

@@ -1,0 +1,17 @@
+Comando: pwd
+
+📖 Descripción:
+Muestra el directorio de trabajo actual (directorio en el que se encuentra el usuario).
+
+🛠️ Uso:
+pwd
+
+🔹 Ejemplos:
+
+pwd   # Muestra la ruta completa del directorio actual  
+
+📝 Opciones más usadas:
+No tiene opciones adicionales.
+
+ℹ️ Información adicional:
+Para más detalles: man pwd

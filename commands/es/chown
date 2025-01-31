@@ -1,0 +1,22 @@
+Comando: chown
+
+📖 Descripción:
+Cambia el propietario y el grupo de uno o más archivos o directorios.
+
+🛠️ Uso:
+chown [opciones] [usuario][:grupo] [archivo]
+
+🔹 Ejemplos:
+
+chown usuario archivo.txt   # Cambia el propietario de "archivo.txt" a "usuario"  
+chown usuario:grupo archivo.txt   # Cambia el propietario y el grupo de "archivo.txt"  
+chown -R usuario:grupo /directorio   # Cambia recursivamente el propietario y el grupo de todos los archivos en "directorio"  
+
+📝 Opciones más usadas:
+
+    -R → Cambia recursivamente los archivos dentro de un directorio
+    -v → Muestra los archivos que se están cambiando
+    -c → Muestra solo los archivos cuyo propietario o grupo ha cambiado
+
+ℹ️ Información adicional:
+Para más detalles: man chown

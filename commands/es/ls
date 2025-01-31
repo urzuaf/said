@@ -1,0 +1,24 @@
+Comando: ls
+
+📖 Descripción:
+
+  Lista los archivos y directorios en una carpeta.
+
+🛠️ Uso :
+
+  ls [opciones] [ruta]
+
+🔹 Ejemplos :
+
+    ls -l   #Lista en formato detallado
+    ls -a   #Muestra archivos ocultos
+    ls -lh  #Tamaño en formato legible
+
+📝 Opciones más usadas:
+
+    -l → Formato largo con permisos, usuario, etc.
+    -a → Muestra archivos ocultos (.archivos)
+    -h → Tamaños en KB/MB en vez de bytes
+
+ℹ️ Información adicional:
+  Para más detalles: man ls

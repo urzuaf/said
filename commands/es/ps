@@ -1,0 +1,26 @@
+Comando: ps
+
+📖 Descripción:
+Muestra una lista de los procesos en ejecución en el sistema.
+
+🛠️ Uso:
+ps [opciones]
+
+🔹 Ejemplos:
+
+ps   # Muestra los procesos asociados al terminal actual  
+ps aux   # Muestra todos los procesos en el sistema  
+ps -ef   # Muestra todos los procesos con más detalles  
+ps -u usuario   # Muestra los procesos de un usuario específico  
+ps -o pid,comm   # Muestra solo el ID de proceso y el nombre del comando  
+
+📝 Opciones más usadas:
+
+    aux → Muestra todos los procesos con detalles
+    -u [usuario] → Filtra por usuario
+    -e → Muestra todos los procesos
+    -f → Muestra una lista más detallada
+    -o [formato] → Especifica el formato de salida (por ejemplo, pid,comm)
+
+ℹ️ Información adicional:
+Para más detalles: man ps

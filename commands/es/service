@@ -1,0 +1,26 @@
+Comando: service
+
+📖 Descripción:
+Inicia, detiene o consulta el estado de servicios en sistemas basados en SysVinit o systemd.
+
+🛠️ Uso:
+service [servicio] [acción]
+
+🔹 Ejemplos:
+
+service apache2 start   # Inicia el servicio Apache  
+service mysql stop   # Detiene el servicio MySQL  
+service ssh restart   # Reinicia el servicio SSH  
+service --status-all   # Muestra el estado de todos los servicios  
+systemctl status nginx   # Alternativa moderna con systemd  
+
+📝 Opciones más usadas:
+
+    start → Inicia un servicio
+    stop → Detiene un servicio
+    restart → Reinicia un servicio
+    status → Muestra el estado del servicio
+    reload → Recarga la configuración sin reiniciar
+
+ℹ️ Información adicional:
+Para más detalles: man service

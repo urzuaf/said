@@ -1,0 +1,28 @@
+Comando: tree
+
+📖 Descripción:
+Muestra la estructura de directorios y archivos en forma de árbol.
+
+🛠️ Uso:
+
+tree [opciones] [ruta]
+
+🔹 Ejemplos:
+
+tree                    # Muestra la estructura desde el directorio actual  
+tree /home              # Muestra la estructura de /home  
+tree -L 2              # Muestra solo hasta 2 niveles de profundidad  
+tree -d                # Muestra solo directorios  
+tree -a                # Incluye archivos ocultos  
+tree -I "*.log"        # Excluye archivos .log  
+
+📝 Opciones más usadas:
+
+    -L N → Muestra hasta N niveles de profundidad
+    -d → Muestra solo directorios
+    -a → Incluye archivos ocultos
+    -I "patrón" → Excluye archivos o carpetas que coincidan con el patrón
+    -C → Colorea la salida (útil en terminales con soporte de color)
+
+ℹ️ Información adicional:
+Para más detalles: man tree

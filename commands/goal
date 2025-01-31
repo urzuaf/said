@@ -1,0 +1,65 @@
+DONE
+    ls - es
+    cd - es
+    mkdir - es
+    mv - es
+    cp - es
+    rm - es
+    find - es
+    grep - es
+    touch - es 
+    chmod - es
+    scp - es 
+    ssh - es
+    wc - es
+    cat - es
+    echo - es
+    head - es
+    tail - es
+    cmp - es
+    sed - es
+    split - es
+    du - es
+    df - es
+    diff - es
+    wget - es
+    curl - es
+    top - es
+    service - es 
+    ps - es
+    kill - es
+    killall - es
+    sort - es
+    uniq - es
+
+INPROGRESS
+    nl -
+    clear - 
+    sudo - 
+    whoami - 
+    ifconfig -
+    netstat -
+    pwd - 
+    chown - 
+
+BACKLOG
+    zip - 
+    unzip - 
+    ln - 
+    less - 
+    uname - 
+    tar - 
+    comm - 
+    export - 
+    mount - 
+    traceroute - 
+    ufw - 
+    iptables - 
+    cal - 
+    alias - 
+    dd - 
+    whereis - 
+    whatis - 
+    useradd
+    usermod -
+    passwd - 

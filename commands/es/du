@@ -1,0 +1,22 @@
+Comando: du
+
+📖 Descripción:
+Muestra el tamaño de archivos y directorios.
+
+🛠️ Uso:
+du [opciones] [ruta]
+
+🔹 Ejemplos:
+
+du -h archivo.txt   # Muestra el tamaño de un archivo en formato legible  
+du -sh carpeta/   # Muestra el tamaño total de una carpeta  
+du -ah carpeta/   # Muestra el tamaño de todos los archivos y subcarpetas  
+
+📝 Opciones más usadas:
+
+    -h → Tamaños en formato legible (KB, MB, GB)
+    -s → Solo muestra el total, no los archivos individuales
+    -a → Muestra todos los archivos, no solo directorios
+
+ℹ️ Información adicional:
+Para más detalles: man du

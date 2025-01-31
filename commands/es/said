@@ -1,0 +1,19 @@
+Comando: said
+
+📖 Descripción:
+Obten ayuda para distintos comandos de linux.
+
+🛠️ Uso :
+said [opciones] [instruccion] [argumentos]
+
+🔹 Ejemplos :
+
+    said                    #Muestra ayuda para el comando said 
+    said mkdir              #Muestra ayuda para el comando mkdir
+    said -e mkdir           #Muestra ayuda para el comando mkdir solo mostrando ejemplos
+    said search files       #Muestra todos los comandos que tengan que ver con "files"
+    
+📝 Opciones más usadas:
+
+    -e →  Solo devuelve los ejemplos de uso
+    -l →  Imprime la ayuda con el comando less, no imprime en la terminal

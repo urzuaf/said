@@ -1,0 +1,22 @@
+Comando: mv
+
+📖 Descripción:
+Mueve o renombra archivos y directorios.
+
+🛠️ Uso :
+mv [origen] [destino]
+
+🔹 Ejemplos :
+
+    mv archivo.txt carpeta/                 #Mueve "archivo.txt" a "carpeta/"
+    mv viejo_nombre.txt nuevo_nombre.txt    #Renombra un archivo
+    mv *.jpg carpeta/                       #Mueve todos los archivos .jpg a "carpeta/"
+
+📝 Opciones más usadas:
+
+    -i → Pregunta antes de sobrescribir un archivo
+    -n → No sobrescribe archivos existentes
+    -v → Muestra detalles del movimiento
+
+ℹ️ Información adicional:
+Para más detalles: man mv

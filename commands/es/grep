@@ -1,0 +1,25 @@
+Comando: grep
+
+📖 Descripción:
+Busca líneas que coincidan con un patrón en un archivo o entrada estándar.
+
+🛠️ Uso:
+grep [opciones] "patrón" [archivo]
+
+🔹 Ejemplos:
+
+grep "error" log.txt   # Busca "error" en el archivo log.txt  
+grep -i "warning" log.txt   # Búsqueda sin distinguir mayúsculas/minúsculas  
+grep -r "TODO" ./   # Busca "TODO" en todos los archivos del directorio  
+cat archivo.txt | grep "palabra"   # Filtra la salida de otro comando  
+
+📝 Opciones más usadas:
+
+    -i → Ignora mayúsculas y minúsculas
+    -r → Busca recursivamente en subdirectorios
+    -v → Muestra las líneas que no coinciden con el patrón
+    -n → Muestra el número de línea donde se encuentra la coincidencia
+    -E → Usa expresiones regulares extendidas
+
+ℹ️ Información adicional:
+Para más detalles: man grep

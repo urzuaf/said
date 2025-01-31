@@ -1,0 +1,22 @@
+Comando: cmp
+
+📖 Descripción:
+Compara dos archivos byte a byte e indica en qué posición difieren.
+
+🛠️ Uso:
+cmp [opciones] archivo1 archivo2
+
+🔹 Ejemplos:
+
+cmp archivo1.txt archivo2.txt   # Compara dos archivos y muestra la primera diferencia  
+cmp -l archivo1.txt archivo2.txt   # Muestra todas las diferencias byte por byte  
+cmp -s archivo1.txt archivo2.txt   # No muestra salida, solo devuelve código de estado  
+
+📝 Opciones más usadas:
+
+    -l → Muestra las diferencias byte a byte
+    -s → Silencioso, solo devuelve código de estado
+    --ignore-initial=N → Ignora los primeros N bytes al comparar
+
+ℹ️ Información adicional:
+Para más detalles: man cmp

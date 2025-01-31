@@ -1,0 +1,17 @@
+Comando: whoami
+
+📖 Descripción:
+Muestra el nombre de usuario actual que está ejecutando el terminal.
+
+🛠️ Uso:
+whoami
+
+🔹 Ejemplos:
+
+whoami   # Muestra el nombre de usuario actual  
+
+📝 Opciones más usadas:
+No tiene opciones adicionales.
+
+ℹ️ Información adicional:
+Para más detalles: man whoami

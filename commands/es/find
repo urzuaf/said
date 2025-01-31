@@ -1,0 +1,30 @@
+Comando: find
+
+📖 Descripción:
+Busca archivos y directorios según diferentes criterios.
+
+🛠️ Uso:
+
+find [ruta] [opciones] [criterios]
+
+🔹 Ejemplos:
+
+find . -name "archivo.txt"          # Busca "archivo.txt" en el directorio actual  
+find /home -type f -name "*.jpg"    # Busca archivos .jpg en /home  
+find . -type d -name "carpeta*"     # Busca directorios que comiencen con "carpeta"  
+find . -size +10M                   # Busca archivos mayores a 10MB  
+find . -mtime -7                    # Busca archivos modificados en los últimos 7 días  
+find . -exec rm {} \;               # Encuentra y elimina archivos  
+
+📝 Opciones más usadas:
+
+    -name "nombre" → Busca por nombre exacto
+    -iname "nombre" → Busca sin distinguir mayúsculas/minúsculas
+    -type f → Busca solo archivos
+    -type d → Busca solo directorios
+    -size +10M → Busca archivos mayores a 10MB
+    -mtime -N → Busca archivos modificados en los últimos N días
+    -exec comando {} \; → Ejecuta un comando en cada resultado
+
+ℹ️ Información adicional:
+Para más detalles: man find

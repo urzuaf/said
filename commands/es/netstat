@@ -1,0 +1,23 @@
+Comando: netstat
+
+📖 Descripción:
+Muestra estadísticas de red, conexiones de red y puertos abiertos.
+
+🛠️ Uso:
+netstat [opciones]
+
+🔹 Ejemplos:
+
+netstat   # Muestra las conexiones de red activas  
+netstat -tuln   # Muestra puertos de escucha (TCP/UDP)  
+netstat -i   # Muestra estadísticas de las interfaces de red  
+
+📝 Opciones más usadas:
+
+    -t → Muestra conexiones TCP
+    -u → Muestra conexiones UDP
+    -l → Muestra puertos en escucha
+    -n → Muestra direcciones y puertos numéricos en lugar de resolver nombres
+
+ℹ️ Información adicional:
+Para más detalles: man netstat

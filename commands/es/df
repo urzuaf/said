@@ -1,0 +1,22 @@
+Comando: df
+
+📖 Descripción:
+Muestra el espacio libre y usado en los sistemas de archivos.
+
+🛠️ Uso:
+df [opciones] [ruta]
+
+🔹 Ejemplos:
+
+df -h   # Muestra el uso de disco en formato legible  
+df -T   # Muestra el tipo de sistema de archivos  
+df -i   # Muestra el uso de inodos  
+
+📝 Opciones más usadas:
+
+    -h → Formato legible (GB, MB)
+    -T → Muestra el tipo de sistema de archivos
+    -i → Muestra el uso de inodos
+
+ℹ️ Información adicional:
+Para más detalles: man df

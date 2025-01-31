@@ -1,0 +1,24 @@
+Comando: ifconfig
+
+📖 Descripción:
+Muestra y configura interfaces de red en sistemas Unix y Linux.
+
+🛠️ Uso:
+ifconfig [interfaz] [opciones]
+
+🔹 Ejemplos:
+
+ifconfig   # Muestra las interfaces de red y sus configuraciones  
+ifconfig eth0   # Muestra detalles de la interfaz "eth0"  
+ifconfig eth0 up   # Activa la interfaz "eth0"  
+ifconfig eth0 down   # Desactiva la interfaz "eth0"  
+
+📝 Opciones más usadas:
+
+    up → Activa la interfaz de red
+    down → Desactiva la interfaz de red
+    netmask [máscara] → Configura la máscara de red
+    inet [IP] → Configura la dirección IP de la interfaz
+
+ℹ️ Información adicional:
+Para más detalles: man ifconfig

@@ -1,0 +1,22 @@
+Comando: head
+
+📖 Descripción:
+Muestra las primeras líneas de un archivo o entrada estándar.
+
+🛠️ Uso:
+head [opciones] [archivo]
+
+🔹 Ejemplos:
+
+head archivo.txt   # Muestra las primeras 10 líneas (por defecto)  
+head -5 archivo.txt   # Muestra las primeras 5 líneas  
+head -c 20 archivo.txt   # Muestra los primeros 20 bytes  
+ls -l | head -3   # Muestra las primeras 3 líneas de la salida de ls  
+
+📝 Opciones más usadas:
+
+    -n [N] → Muestra las primeras N líneas
+    -c [N] → Muestra los primeros N bytes
+
+ℹ️ Información adicional:
+Para más detalles: man head

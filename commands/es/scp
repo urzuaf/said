@@ -1,0 +1,24 @@
+Comando: scp
+
+📖 Descripción:
+Copia archivos de forma segura entre sistemas a través de SSH.
+
+🛠️ Uso:
+scp [opciones] origen destino
+
+🔹 Ejemplos:
+
+scp archivo.txt usuario@servidor:/ruta/destino/   # Copia un archivo a un servidor remoto  
+scp usuario@servidor:/ruta/archivo.txt ./   # Descarga un archivo desde un servidor remoto  
+scp -r carpeta/ usuario@servidor:/ruta/   # Copia una carpeta completa de forma recursiva  
+scp -P 2222 archivo.txt usuario@servidor:/ruta/   # Usa un puerto SSH específico (2222)  
+
+📝 Opciones más usadas:
+
+    -r → Copia carpetas recursivamente
+    -P [puerto] → Especifica un puerto SSH
+    -C → Habilita compresión para acelerar la transferencia
+    -i [archivo.pem] → Usa una clave privada para autenticación
+
+ℹ️ Información adicional:
+Para más detalles: man scp

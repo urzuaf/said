@@ -1,0 +1,22 @@
+Comando: killall
+
+📖 Descripción:
+Mata todos los procesos que coincidan con el nombre de un comando.
+
+🛠️ Uso:
+killall [opciones] nombre_comando
+
+🔹 Ejemplos:
+
+killall firefox   # Mata todos los procesos llamados "firefox"  
+killall -9 firefox   # Mata todos los procesos llamados "firefox" de forma forzada  
+killall -u usuario   # Mata todos los procesos del usuario especificado  
+
+📝 Opciones más usadas:
+
+    -9 → Fuerza la terminación de los procesos
+    -u [usuario] → Mata los procesos de un usuario específico
+    -l → Muestra la lista de nombres de señales
+
+ℹ️ Información adicional:
+Para más detalles: man killall

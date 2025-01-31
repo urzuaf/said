@@ -1,0 +1,25 @@
+Comando: sort
+
+📖 Descripción:
+Ordena las líneas de un archivo o de la entrada estándar.
+
+🛠️ Uso:
+sort [opciones] [archivo]
+
+🔹 Ejemplos:
+
+sort archivo.txt   # Ordena las líneas del archivo en orden alfabético  
+sort -n archivo.txt   # Ordena las líneas numéricamente  
+sort -r archivo.txt   # Ordena las líneas en orden inverso  
+sort -k 2 archivo.txt   # Ordena por la segunda columna  
+
+📝 Opciones más usadas:
+
+    -n → Ordena numéricamente
+    -r → Ordena en orden inverso
+    -k [campo] → Ordena por un campo específico
+    -u → Elimina líneas duplicadas
+    -t [delimitador] → Define un delimitador de campo
+
+ℹ️ Información adicional:
+Para más detalles: man sort

@@ -1,0 +1,24 @@
+Comando: ssh
+
+📖 Descripción:
+Permite conectarse de forma segura a otro sistema a través de la red.
+
+🛠️ Uso:
+ssh [opciones] usuario@servidor
+
+🔹 Ejemplos:
+
+ssh usuario@servidor   # Conéctate a un servidor remoto  
+ssh -p 2222 usuario@servidor   # Especifica un puerto diferente (2222)  
+ssh -i clave.pem usuario@servidor   # Usa autenticación con clave privada  
+ssh usuario@servidor "ls -l /home"   # Ejecuta un comando remoto  
+
+📝 Opciones más usadas:
+
+    -p [puerto] → Especifica un puerto SSH
+    -i [archivo.pem] → Usa una clave privada para autenticación
+    -X → Habilita el reenvío de gráficos X11
+    -L [puerto_local]:[host_remoto]:[puerto_remoto] → Crea un túnel SSH
+
+ℹ️ Información adicional:
+Para más detalles: man ssh

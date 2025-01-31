@@ -1,0 +1,24 @@
+Comando: cat
+
+📖 Descripción:
+Muestra el contenido de un archivo o concatena múltiples archivos en la salida estándar.
+
+🛠️ Uso:
+cat [opciones] [archivo]
+
+🔹 Ejemplos:
+
+cat archivo.txt   # Muestra el contenido de un archivo  
+cat archivo1.txt archivo2.txt > combinado.txt   # Une dos archivos en uno nuevo  
+cat -n archivo.txt   # Muestra el contenido numerando las líneas  
+cat archivo.txt | grep "error"   # Filtra líneas que contienen "error"  
+
+📝 Opciones más usadas:
+
+    -n → Numera las líneas
+    -b → Numera solo las líneas no vacías
+    -s → Suprime líneas vacías repetidas
+    -E → Muestra los saltos de línea ($)
+
+ℹ️ Información adicional:
+Para más detalles: man cat

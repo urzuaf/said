@@ -1,0 +1,23 @@
+Comando: echo
+
+📖 Descripción:
+Imprime texto en la terminal o lo redirige a un archivo.
+
+🛠️ Uso:
+echo [opciones] [mensaje]
+
+🔹 Ejemplos:
+
+echo "Hola, mundo"   # Imprime "Hola, mundo" en la terminal  
+echo "Texto" > archivo.txt   # Escribe "Texto" en un archivo  
+echo "Línea nueva" >> archivo.txt   # Agrega una línea al final de un archivo  
+echo -e "Línea 1\nLínea 2"   # Imprime con saltos de línea  
+
+📝 Opciones más usadas:
+
+    -e → Habilita interpretación de caracteres especiales (\n, \t, etc.)
+    -n → No agrega un salto de línea al final
+    -E → Desactiva la interpretación de caracteres especiales
+
+ℹ️ Información adicional:
+Para más detalles: man echo

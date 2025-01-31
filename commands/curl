@@ -1,0 +1,28 @@
+Comando: curl
+
+📖 Descripción:
+Transfiere datos desde o hacia un servidor utilizando múltiples protocolos como HTTP, HTTPS, FTP.
+
+🛠️ Uso:
+curl [opciones] URL
+
+🔹 Ejemplos:
+
+curl https://ejemplo.com   # Descarga el contenido de una URL  
+curl -o archivo.html https://ejemplo.com   # Guarda el contenido en un archivo  
+curl -L https://ejemplo.com   # Sigue redirecciones automáticamente  
+curl -X POST -d "usuario=admin&clave=1234" https://ejemplo.com/login   # Envía datos en una solicitud POST  
+curl -H "User-Agent: Mozilla" https://ejemplo.com   # Especifica un User-Agent  
+curl -s https://api.ejemplo.com/data | jq '.'   # Obtiene datos JSON y los formatea con jq  
+
+📝 Opciones más usadas:
+
+    -o [archivo] → Guarda la salida en un archivo
+    -L → Sigue redirecciones
+    -X [método] → Especifica un método HTTP (GET, POST, PUT, DELETE, etc.)
+    -d [datos] → Envía datos en una solicitud
+    -H "[cabecera]" → Añade encabezados a la petición
+    -s → Oculta la barra de progreso
+
+ℹ️ Información adicional:
+Para más detalles: man curl

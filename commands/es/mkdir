@@ -1,0 +1,21 @@
+Comando: mkdir
+
+📖 Descripción:
+Crea directorios en la terminal.
+
+🛠️ Uso :
+mkdir [opciones] nombre_del_directorio
+
+🔹 Ejemplos :
+
+    mkdir nueva_carpeta             #Crea un directorio llamado "nueva_carpeta"
+    mkdir -p padre/hijo             #Crea el directorio "hijo" dentro de "padre", creando "padre" si no existe
+    mkdir -m 755 mi_directorio      #Crea "mi_directorio" con permisos específicos
+
+📝 Opciones más usadas:
+
+    -p → Crea directorios padre si no existen
+    -m → Especifica permisos al crear el directorio
+
+ℹ️ Información adicional:
+Para más detalles: man mkdir

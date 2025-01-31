@@ -1,0 +1,23 @@
+Comando: nl
+
+📖 Descripción:
+Muestra el contenido de un archivo numerando sus líneas.
+
+🛠️ Uso:
+nl [opciones] [archivo]
+
+🔹 Ejemplos:
+
+nl archivo.txt   # Muestra el contenido de "archivo.txt" con números de línea  
+nl -b a archivo.txt   # Numera las líneas no vacías de "archivo.txt"  
+nl -s ": " archivo.txt   # Numera y coloca un ":" como separador entre el número de línea y el contenido  
+
+📝 Opciones más usadas:
+
+    -b [modo] → Define cómo numerar las líneas (por ejemplo, a para todas las líneas, t para líneas no vacías)
+    -s [separador] → Define el separador entre el número de línea y el contenido
+    -n [formato] → Especifica el formato del número (por ejemplo, ln para líneas con longitud fija)
+    -w [ancho] → Establece el ancho de los números de línea
+
+ℹ️ Información adicional:
+Para más detalles: man nl

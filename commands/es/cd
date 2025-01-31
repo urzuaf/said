@@ -1,0 +1,20 @@
+Comando: cd
+
+📖 Descripción:
+Cambia el directorio de trabajo en la terminal.
+
+🛠️ Uso :
+cd [ruta]
+
+🔹 Ejemplos :
+
+    cd /home/usuario    #Cambia al directorio /home/usuario
+    cd ..               # Sube un nivel en la jerarquía de directorios
+    cd -                # Vuelve al directorio anterior
+
+📝 Opciones útiles:
+
+    No tiene opciones comunes, pero usar cd sin argumentos te lleva a tu directorio home.
+
+ℹ️ Información adicional:
+Para más detalles: man cd

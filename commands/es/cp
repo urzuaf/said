@@ -1,0 +1,22 @@
+Comando: cp
+
+📖 Descripción:
+Copia archivos y directorios.
+
+🛠️ Uso :
+cp [opciones] origen destino
+
+🔹 Ejemplos :
+
+    cp archivo.txt copia.txt                #Copia "archivo.txt" como "copia.txt"
+    cp -r carpeta_origen carpeta_destino    #Copia un directorio y su contenido
+    cp *.png imágenes/                      #Copia todos los archivos .png a la carpeta "imágenes"
+
+📝 Opciones más usadas:
+
+    -r → Copia directorios recursivamente
+    -i → Pregunta antes de sobrescribir archivos
+    -v → Muestra detalles de la copia
+
+ℹ️ Información adicional:
+Para más detalles: man cp

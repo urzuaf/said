@@ -1,0 +1,24 @@
+Comando: uniq
+
+📖 Descripción:
+Elimina o muestra las líneas duplicadas en un archivo o entrada estándar.
+
+🛠️ Uso:
+uniq [opciones] [archivo]
+
+🔹 Ejemplos:
+
+uniq archivo.txt   # Elimina las líneas consecutivas duplicadas del archivo  
+uniq -u archivo.txt   # Muestra solo las líneas únicas  
+uniq -d archivo.txt   # Muestra solo las líneas duplicadas  
+uniq -c archivo.txt   # Muestra cuántas veces se repite cada línea  
+
+📝 Opciones más usadas:
+
+    -u → Muestra solo las líneas únicas
+    -d → Muestra solo las líneas duplicadas
+    -c → Muestra el número de repeticiones de cada línea
+    -i → Ignora diferencias entre mayúsculas y minúsculas
+
+ℹ️ Información adicional:
+Para más detalles: man uniq

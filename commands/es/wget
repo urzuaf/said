@@ -1,0 +1,24 @@
+Comando: wget
+
+📖 Descripción:
+Descarga archivos desde la web mediante HTTP, HTTPS y FTP.
+
+🛠️ Uso:
+wget [opciones] URL
+
+🔹 Ejemplos:
+
+wget https://ejemplo.com/archivo.zip   # Descarga un archivo desde una URL  
+wget -c https://ejemplo.com/archivo.zip   # Reanuda una descarga interrumpida  
+wget -r https://ejemplo.com/   # Descarga un sitio web completo recursivamente  
+wget --limit-rate=200k https://ejemplo.com/archivo.zip   # Limita la velocidad de descarga  
+
+📝 Opciones más usadas:
+
+    -c → Reanuda descargas interrumpidas
+    -r → Descarga de forma recursiva
+    --limit-rate=[velocidad] → Limita la velocidad de descarga
+    --no-check-certificate → Ignora errores de certificados SSL
+
+ℹ️ Información adicional:
+Para más detalles: man wget

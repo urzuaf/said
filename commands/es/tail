@@ -1,0 +1,23 @@
+Comando: tail
+
+📖 Descripción:
+Muestra las últimas líneas de un archivo o entrada estándar.
+
+🛠️ Uso:
+tail [opciones] [archivo]
+
+🔹 Ejemplos:
+
+tail archivo.txt   # Muestra las últimas 10 líneas (por defecto)  
+tail -5 archivo.txt   # Muestra las últimas 5 líneas  
+tail -f archivo.log   # Muestra nuevas líneas en tiempo real (útil para logs)  
+tail -c 50 archivo.txt   # Muestra los últimos 50 bytes  
+
+📝 Opciones más usadas:
+
+    -n [N] → Muestra las últimas N líneas
+    -c [N] → Muestra los últimos N bytes
+    -f → Muestra nuevas líneas en tiempo real
+
+ℹ️ Información adicional:
+Para más detalles: man tail
