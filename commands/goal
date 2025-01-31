@@ -31,16 +31,16 @@ DONE
     killall - es
     sort - es
     uniq - es
+    nl - es
+    clear - es
+    sudo - es
+    whoami - es
+    ifconfig - es
+    netstat - es
+    pwd - es
+    chown - es
 
 INPROGRESS
-    nl -
-    clear - 
-    sudo - 
-    whoami - 
-    ifconfig -
-    netstat -
-    pwd - 
-    chown - 
 
 BACKLOG
     zip - 
