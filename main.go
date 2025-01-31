@@ -24,7 +24,7 @@ func main() {
 	}
 
 	if !isValidCommand(config.instruction) {
-		fmt.Println("Comando no reconocido:", config.instruction)
+		fmt.Println("Comando no reconocido: ", config.instruction)
 		os.Exit(1)
 	}
 
