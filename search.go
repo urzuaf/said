@@ -10,6 +10,24 @@ func isValidCommand(key string) bool {
 	return exists
 }
 
+func smartSearch(query string) []string {
+	var results []string
+	query = strings.ToLower(query)
+	fmt.Println("Searching: " + query + "...")
+
+	// search descriptions
+	for cmd, descs := range commandDescriptions {
+		for _, desc := range descs {
+			if strings.Contains(strings.ToLower(desc), query) {
+				results = append(results, fmt.Sprintf("- %s: %s", cmd, desc))
+				break
+			}
+		}
+	}
+
+	return results
+}
+
 var commandDescriptions = map[string][]string{
 	"cd":       {"Cambia, cambiar el directorio, directorios de trabajo", "Changes, change the working directory"},
 	"cp":       {"Copia, copiar archivos, archivo", "Copy files, file"},
@@ -53,22 +71,4 @@ var commandDescriptions = map[string][]string{
 	"pwd":      {"Muestra el directorio de trabajo actual (directorio en el que se encuentra el usuario)", "Displays the current working directory (directory where the user is located)"},
 	"chown":    {"Cambia el propietario y el grupo de uno o más archivos o directorios", "Changes the owner and group of one or more files or directories"},
 	"said":     {"ayuda para comandos de linux", "help for linux commands"},
-}
-
-func smartSearch(query string) []string {
-	var results []string
-	query = strings.ToLower(query)
-	fmt.Println("Searching: " + query + "...")
-
-	// search descriptions
-	for cmd, descs := range commandDescriptions {
-		for _, desc := range descs {
-			if strings.Contains(strings.ToLower(desc), query) {
-				results = append(results, fmt.Sprintf("- %s: %s", cmd, desc))
-				break
-			}
-		}
-	}
-
-	return results
 }

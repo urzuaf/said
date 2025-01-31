@@ -7,10 +7,9 @@ import (
 
 func main() {
 	//Read the configuration files
-	configure()
 	config := configurationObject.getConfiguration()
 
-	// if user inputs "search <keyword>"
+	// if user inputs "search <keyword>" look for related commands
 	if config.instruction == "search" && len(config.arguments) > 1 {
 		results := smartSearch(config.arguments)
 		if len(results) > 0 {
@@ -29,14 +28,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Construir la ruta completa al archivo
-	homeDir, err := os.UserHomeDir()
-	if err != nil {
-		fmt.Println("Error al obtener el directorio home:", err)
-		return
-	}
-
-	filepath := homeDir + "/.said/commands/" + config.language + "/" + config.instruction
+	filepath := config.dataFolder + config.language + "/" + config.instruction
 
 	var filedata string
 

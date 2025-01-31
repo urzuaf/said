@@ -20,19 +20,17 @@ type Config struct {
 var configurationObject Config
 
 func (c Config) getConfiguration() Config {
+	configure()
 	return c
 }
 
 // configuration of the program
-
 func configure() {
 
+	//get the user home directory
 	homeDir, err := os.UserHomeDir()
-	if err != nil {
-		fmt.Println("Error al obtener el directorio home:", err)
-		return
-	}
-	// Construir la ruta completa al archivo
+	Check(err)
+
 	filePath := homeDir + "/.said/said.conf"
 
 	flags := parseFlags()
@@ -42,7 +40,7 @@ func configure() {
 	configurationObject = Config{
 		quickExamples: flags["e"],
 		lessOutput:    flags["l"],
-		dataFolder:    homeDir + "/.said/commands",
+		dataFolder:    homeDir + configfile["datafolder"],
 		language:      configfile["language"],
 		instruction:   instruction["instruction"],
 		arguments:     instruction["arguments"],
