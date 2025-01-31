@@ -43,4 +43,5 @@ fi
 echo "Eliminando archivo zip descargado..."
 rm "$INSTALL_DIR/said.zip"
 
+source ~/.bashrc
 echo "¡Instalación completada!"

@@ -29,7 +29,14 @@ func main() {
 		os.Exit(1)
 	}
 
-	filepath := "commands/" + config.language + "/" + config.instruction
+	// Construir la ruta completa al archivo
+	homeDir, err := os.UserHomeDir()
+	if err != nil {
+		fmt.Println("Error al obtener el directorio home:", err)
+		return
+	}
+
+	filepath := homeDir + "/.said/commands/" + config.language + "/" + config.instruction
 
 	var filedata string
 

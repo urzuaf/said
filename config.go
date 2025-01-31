@@ -26,14 +26,23 @@ func (c Config) getConfiguration() Config {
 // configuration of the program
 
 func configure() {
+
+	homeDir, err := os.UserHomeDir()
+	if err != nil {
+		fmt.Println("Error al obtener el directorio home:", err)
+		return
+	}
+	// Construir la ruta completa al archivo
+	filePath := homeDir + "/.said/said.conf"
+
 	flags := parseFlags()
-	configfile := loadConfigFiles("said.conf")
+	configfile := loadConfigFiles(filePath)
 	instruction := getCommand()
 
 	configurationObject = Config{
 		quickExamples: flags["e"],
 		lessOutput:    flags["l"],
-		dataFolder:    configfile["datafolder"],
+		dataFolder:    homeDir + "/.said/commands",
 		language:      configfile["language"],
 		instruction:   instruction["instruction"],
 		arguments:     instruction["arguments"],
