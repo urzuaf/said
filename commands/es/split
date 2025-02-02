@@ -8,9 +8,9 @@ split [opciones] archivo [prefijo]
 
 🔹 Ejemplos:
 
-split -b 10M archivo.bin parte_   # Divide en archivos de 10 MB  
-split -l 1000 archivo.txt parte_   # Divide en archivos de 1000 líneas cada uno  
-split -d archivo.log parte_   # Usa números en lugar de letras en los nombres  
+split -b 10M archivo.bin parte_     # Divide en archivos de 10 MB  
+split -l 1000 archivo.txt parte_    # Divide en archivos de 1000 líneas cada uno  
+split -d archivo.log parte_         # Usa números en lugar de letras en los nombres  
 
 📝 Opciones más usadas:
 

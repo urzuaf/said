@@ -8,10 +8,10 @@ ifconfig [interfaz] [opciones]
 
 🔹 Ejemplos:
 
-ifconfig   # Muestra las interfaces de red y sus configuraciones  
-ifconfig eth0   # Muestra detalles de la interfaz "eth0"  
-ifconfig eth0 up   # Activa la interfaz "eth0"  
-ifconfig eth0 down   # Desactiva la interfaz "eth0"  
+ifconfig                # Muestra las interfaces de red y sus configuraciones  
+ifconfig eth0           # Muestra detalles de la interfaz "eth0"  
+ifconfig eth0 up        # Activa la interfaz "eth0"  
+ifconfig eth0 down      # Desactiva la interfaz "eth0"  
 
 📝 Opciones más usadas:
 

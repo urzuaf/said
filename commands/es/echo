@@ -8,10 +8,10 @@ echo [opciones] [mensaje]
 
 🔹 Ejemplos:
 
-echo "Hola, mundo"   # Imprime "Hola, mundo" en la terminal  
-echo "Texto" > archivo.txt   # Escribe "Texto" en un archivo  
+echo "Hola, mundo"                  # Imprime "Hola, mundo" en la terminal  
+echo "Texto" > archivo.txt          # Escribe "Texto" en un archivo  
 echo "Línea nueva" >> archivo.txt   # Agrega una línea al final de un archivo  
-echo -e "Línea 1\nLínea 2"   # Imprime con saltos de línea  
+echo -e "Línea 1\nLínea 2"          # Imprime con saltos de línea  
 
 📝 Opciones más usadas:
 

@@ -8,10 +8,10 @@ sed [opciones] 'comando' archivo
 
 🔹 Ejemplos:
 
-sed 's/hola/adiós/' archivo.txt   # Reemplaza la primera ocurrencia de "hola" por "adiós" en cada línea  
-sed 's/hola/adiós/g' archivo.txt   # Reemplaza todas las ocurrencias en cada línea  
-sed -i 's/hola/adiós/g' archivo.txt   # Reemplazo en el archivo original (modifica el archivo)  
-sed '/ERROR/d' archivo.log   # Elimina líneas que contienen "ERROR"  
+sed 's/hola/adiós/' archivo.txt         # Reemplaza la primera ocurrencia de "hola" por "adiós" en cada línea  
+sed 's/hola/adiós/g' archivo.txt        # Reemplaza todas las ocurrencias en cada línea  
+sed -i 's/hola/adiós/g' archivo.txt     # Reemplazo en el archivo original (modifica el archivo)  
+sed '/ERROR/d' archivo.log              # Elimina líneas que contienen "ERROR"  
 
 📝 Opciones más usadas:
 

@@ -8,9 +8,9 @@ sort [opciones] [archivo]
 
 🔹 Ejemplos:
 
-sort archivo.txt   # Ordena las líneas del archivo en orden alfabético  
-sort -n archivo.txt   # Ordena las líneas numéricamente  
-sort -r archivo.txt   # Ordena las líneas en orden inverso  
+sort archivo.txt        # Ordena las líneas del archivo en orden alfabético  
+sort -n archivo.txt     # Ordena las líneas numéricamente  
+sort -r archivo.txt     # Ordena las líneas en orden inverso  
 sort -k 2 archivo.txt   # Ordena por la segunda columna  
 
 📝 Opciones más usadas:

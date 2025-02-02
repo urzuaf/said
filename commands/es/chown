@@ -8,9 +8,9 @@ chown [opciones] [usuario][:grupo] [archivo]
 
 🔹 Ejemplos:
 
-chown usuario archivo.txt   # Cambia el propietario de "archivo.txt" a "usuario"  
-chown usuario:grupo archivo.txt   # Cambia el propietario y el grupo de "archivo.txt"  
-chown -R usuario:grupo /directorio   # Cambia recursivamente el propietario y el grupo de todos los archivos en "directorio"  
+chown usuario archivo.txt               # Cambia el propietario de "archivo.txt" a "usuario"  
+chown usuario:grupo archivo.txt         # Cambia el propietario y el grupo de "archivo.txt"  
+chown -R usuario:grupo /directorio      # Cambia recursivamente el propietario y el grupo de todos los archivos en "directorio"  
 
 📝 Opciones más usadas:
 

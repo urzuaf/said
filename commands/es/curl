@@ -8,12 +8,12 @@ curl [opciones] URL
 
 🔹 Ejemplos:
 
-curl https://ejemplo.com   # Descarga el contenido de una URL  
-curl -o archivo.html https://ejemplo.com   # Guarda el contenido en un archivo  
-curl -L https://ejemplo.com   # Sigue redirecciones automáticamente  
-curl -X POST -d "usuario=admin&clave=1234" https://ejemplo.com/login   # Envía datos en una solicitud POST  
-curl -H "User-Agent: Mozilla" https://ejemplo.com   # Especifica un User-Agent  
-curl -s https://api.ejemplo.com/data | jq '.'   # Obtiene datos JSON y los formatea con jq  
+curl https://ejemplo.com                                                # Descarga el contenido de una URL  
+curl -o archivo.html https://ejemplo.com                                # Guarda el contenido en un archivo  
+curl -L https://ejemplo.com                                             # Sigue redirecciones automáticamente  
+curl -X POST -d "usuario=admin&clave=1234" https://ejemplo.com/login    # Envía datos en una solicitud POST  
+curl -H "User-Agent: Mozilla" https://ejemplo.com                       # Especifica un User-Agent  
+curl -s https://api.ejemplo.com/data | jq '.'                           # Obtiene datos JSON y los formatea con jq  
 
 📝 Opciones más usadas:
 

@@ -8,10 +8,10 @@ ssh [opciones] usuario@servidor
 
 🔹 Ejemplos:
 
-ssh usuario@servidor   # Conéctate a un servidor remoto  
-ssh -p 2222 usuario@servidor   # Especifica un puerto diferente (2222)  
+ssh usuario@servidor                # Conéctate a un servidor remoto  
+ssh -p 2222 usuario@servidor        # Especifica un puerto diferente (2222)  
 ssh -i clave.pem usuario@servidor   # Usa autenticación con clave privada  
-ssh usuario@servidor "ls -l /home"   # Ejecuta un comando remoto  
+ssh usuario@servidor "ls -l /home"  # Ejecuta un comando remoto  
 
 📝 Opciones más usadas:
 

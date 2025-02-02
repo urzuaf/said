@@ -8,10 +8,10 @@ scp [opciones] origen destino
 
 🔹 Ejemplos:
 
-scp archivo.txt usuario@servidor:/ruta/destino/   # Copia un archivo a un servidor remoto  
-scp usuario@servidor:/ruta/archivo.txt ./   # Descarga un archivo desde un servidor remoto  
-scp -r carpeta/ usuario@servidor:/ruta/   # Copia una carpeta completa de forma recursiva  
-scp -P 2222 archivo.txt usuario@servidor:/ruta/   # Usa un puerto SSH específico (2222)  
+scp archivo.txt usuario@servidor:/ruta/destino/     # Copia un archivo a un servidor remoto  
+scp usuario@servidor:/ruta/archivo.txt ./           # Descarga un archivo desde un servidor remoto  
+scp -r carpeta/ usuario@servidor:/ruta/             # Copia una carpeta completa de forma recursiva  
+scp -P 2222 archivo.txt usuario@servidor:/ruta/     # Usa un puerto SSH específico (2222)  
 
 📝 Opciones más usadas:
 

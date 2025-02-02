@@ -8,10 +8,10 @@ touch [opciones] archivo
 
 🔹 Ejemplos:
 
-touch nuevo.txt   # Crea un archivo vacío llamado "nuevo.txt"  
-touch -c archivo.txt   # No crea el archivo si no existe  
+touch nuevo.txt                     # Crea un archivo vacío llamado "nuevo.txt"  
+touch -c archivo.txt                # No crea el archivo si no existe  
 touch -t 202401010101 archivo.txt   # Establece la fecha/hora a 01/01/2024 01:01  
-touch archivo1 archivo2 archivo3   # Crea múltiples archivos a la vez  
+touch archivo1 archivo2 archivo3    # Crea múltiples archivos a la vez  
 
 📝 Opciones más usadas:
 

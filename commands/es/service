@@ -8,11 +8,11 @@ service [servicio] [acción]
 
 🔹 Ejemplos:
 
-service apache2 start   # Inicia el servicio Apache  
-service mysql stop   # Detiene el servicio MySQL  
-service ssh restart   # Reinicia el servicio SSH  
-service --status-all   # Muestra el estado de todos los servicios  
-systemctl status nginx   # Alternativa moderna con systemd  
+service apache2 start       # Inicia el servicio Apache  
+service mysql stop          # Detiene el servicio MySQL  
+service ssh restart         # Reinicia el servicio SSH  
+service --status-all        # Muestra el estado de todos los servicios  
+systemctl status nginx      # Alternativa moderna con systemd  
 
 📝 Opciones más usadas:
 

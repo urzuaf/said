@@ -8,9 +8,9 @@ sudo [opciones] [comando]
 
 🔹 Ejemplos:
 
-sudo apt-get update   # Ejecuta "apt-get update" con privilegios de superusuario  
-sudo mkdir /directorio   # Crea un directorio con privilegios elevados  
-sudo rm -rf /carpeta   # Elimina una carpeta con privilegios de superusuario  
+sudo apt-get update         # Ejecuta "apt-get update" con privilegios de superusuario  
+sudo mkdir /directorio      # Crea un directorio con privilegios elevados  
+sudo rm -rf /carpeta        # Elimina una carpeta con privilegios de superusuario  
 
 📝 Opciones más usadas:
 

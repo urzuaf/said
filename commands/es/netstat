@@ -8,9 +8,9 @@ netstat [opciones]
 
 🔹 Ejemplos:
 
-netstat   # Muestra las conexiones de red activas  
-netstat -tuln   # Muestra puertos de escucha (TCP/UDP)  
-netstat -i   # Muestra estadísticas de las interfaces de red  
+netstat             # Muestra las conexiones de red activas  
+netstat -tuln       # Muestra puertos de escucha (TCP/UDP)  
+netstat -i          # Muestra estadísticas de las interfaces de red  
 
 📝 Opciones más usadas:
 

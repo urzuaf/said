@@ -8,11 +8,11 @@ top [opciones]
 
 🔹 Ejemplos:
 
-top   # Muestra los procesos en ejecución y su consumo de CPU/memoria  
-top -u usuario   # Muestra solo los procesos de un usuario específico  
-top -n 10   # Muestra la lista de procesos 10 veces y luego sale  
-top -o %MEM   # Ordena los procesos por uso de memoria  
-htop   # Alternativa con interfaz mejorada (requiere instalación)  
+top                 # Muestra los procesos en ejecución y su consumo de CPU/memoria  
+top -u usuario      # Muestra solo los procesos de un usuario específico  
+top -n 10           # Muestra la lista de procesos 10 veces y luego sale  
+top -o %MEM         # Ordena los procesos por uso de memoria  
+htop                # Alternativa con interfaz mejorada (requiere instalación)  
 
 📝 Opciones más usadas:
 

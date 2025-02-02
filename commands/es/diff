@@ -8,10 +8,10 @@ diff [opciones] archivo1 archivo2
 
 🔹 Ejemplos:
 
-diff archivo1.txt archivo2.txt   # Muestra diferencias línea por línea  
+diff archivo1.txt archivo2.txt      # Muestra diferencias línea por línea  
 diff -u archivo1.txt archivo2.txt   # Muestra diferencias en formato unificado  
 diff -c archivo1.txt archivo2.txt   # Muestra diferencias en formato contexto  
-diff -r carpeta1/ carpeta2/   # Compara directorios recursivamente  
+diff -r carpeta1/ carpeta2/         # Compara directorios recursivamente  
 
 📝 Opciones más usadas:
 

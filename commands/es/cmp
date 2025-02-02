@@ -8,9 +8,9 @@ cmp [opciones] archivo1 archivo2
 
 🔹 Ejemplos:
 
-cmp archivo1.txt archivo2.txt   # Compara dos archivos y muestra la primera diferencia  
-cmp -l archivo1.txt archivo2.txt   # Muestra todas las diferencias byte por byte  
-cmp -s archivo1.txt archivo2.txt   # No muestra salida, solo devuelve código de estado  
+cmp archivo1.txt archivo2.txt       # Compara dos archivos y muestra la primera diferencia  
+cmp -l archivo1.txt archivo2.txt    # Muestra todas las diferencias byte por byte  
+cmp -s archivo1.txt archivo2.txt    # No muestra salida, solo devuelve código de estado  
 
 📝 Opciones más usadas:
 

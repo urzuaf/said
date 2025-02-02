@@ -8,9 +8,9 @@ kill [opciones] [pid]
 
 🔹 Ejemplos:
 
-kill 1234   # Envía la señal SIGTERM al proceso con PID 1234  
-kill -9 1234   # Envía la señal SIGKILL al proceso, forzando su terminación  
-kill -SIGSTOP 1234   # Detiene el proceso temporalmente  
+kill 1234               # Envía la señal SIGTERM al proceso con PID 1234  
+kill -9 1234            # Envía la señal SIGKILL al proceso, forzando su terminación  
+kill -SIGSTOP 1234      # Detiene el proceso temporalmente  
 
 📝 Opciones más usadas:
 

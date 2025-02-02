@@ -8,10 +8,10 @@ grep [opciones] "patrón" [archivo]
 
 🔹 Ejemplos:
 
-grep "error" log.txt   # Busca "error" en el archivo log.txt  
-grep -i "warning" log.txt   # Búsqueda sin distinguir mayúsculas/minúsculas  
-grep -r "TODO" ./   # Busca "TODO" en todos los archivos del directorio  
-cat archivo.txt | grep "palabra"   # Filtra la salida de otro comando  
+grep "error" log.txt                # Busca "error" en el archivo log.txt  
+grep -i "warning" log.txt           # Búsqueda sin distinguir mayúsculas/minúsculas  
+grep -r "TODO" ./                   # Busca "TODO" en todos los archivos del directorio  
+cat archivo.txt | grep "palabra"    # Filtra la salida de otro comando  
 
 📝 Opciones más usadas:
 

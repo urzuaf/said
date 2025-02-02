@@ -8,9 +8,9 @@ nl [opciones] [archivo]
 
 🔹 Ejemplos:
 
-nl archivo.txt   # Muestra el contenido de "archivo.txt" con números de línea  
-nl -b a archivo.txt   # Numera las líneas no vacías de "archivo.txt"  
-nl -s ": " archivo.txt   # Numera y coloca un ":" como separador entre el número de línea y el contenido  
+nl archivo.txt          # Muestra el contenido de "archivo.txt" con números de línea  
+nl -b a archivo.txt     # Numera las líneas no vacías de "archivo.txt"  
+nl -s ": " archivo.txt  # Numera y coloca un ":" como separador entre el número de línea y el contenido  
 
 📝 Opciones más usadas:
 

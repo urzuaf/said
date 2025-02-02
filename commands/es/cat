@@ -8,10 +8,10 @@ cat [opciones] [archivo]
 
 🔹 Ejemplos:
 
-cat archivo.txt   # Muestra el contenido de un archivo  
+cat archivo.txt                                 # Muestra el contenido de un archivo  
 cat archivo1.txt archivo2.txt > combinado.txt   # Une dos archivos en uno nuevo  
-cat -n archivo.txt   # Muestra el contenido numerando las líneas  
-cat archivo.txt | grep "error"   # Filtra líneas que contienen "error"  
+cat -n archivo.txt                              # Muestra el contenido numerando las líneas  
+cat archivo.txt | grep "error"                  # Filtra líneas que contienen "error"  
 
 📝 Opciones más usadas:
 

@@ -8,11 +8,11 @@ ps [opciones]
 
 🔹 Ejemplos:
 
-ps   # Muestra los procesos asociados al terminal actual  
-ps aux   # Muestra todos los procesos en el sistema  
-ps -ef   # Muestra todos los procesos con más detalles  
-ps -u usuario   # Muestra los procesos de un usuario específico  
-ps -o pid,comm   # Muestra solo el ID de proceso y el nombre del comando  
+ps                  # Muestra los procesos asociados al terminal actual  
+ps aux              # Muestra todos los procesos en el sistema  
+ps -ef              # Muestra todos los procesos con más detalles  
+ps -u usuario       # Muestra los procesos de un usuario específico  
+ps -o pid,comm      # Muestra solo el ID de proceso y el nombre del comando  
 
 📝 Opciones más usadas:
 

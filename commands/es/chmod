@@ -8,10 +8,10 @@ chmod [modo] archivo
 
 🔹 Ejemplos:
 
-chmod 644 archivo.txt   # Permisos de lectura/escritura para el dueño, solo lectura para otros  
-chmod +x script.sh   # Da permisos de ejecución al archivo  
-chmod -R 755 carpeta/   # Cambia permisos recursivamente en una carpeta  
-chmod u=rwx,g=rx,o=r archivo.txt   # Asigna permisos de forma simbólica  
+chmod 644 archivo.txt               # Permisos de lectura/escritura para el dueño, solo lectura para otros  
+chmod +x script.sh                  # Da permisos de ejecución al archivo  
+chmod -R 755 carpeta/               # Cambia permisos recursivamente en una carpeta  
+chmod u=rwx,g=rx,o=r archivo.txt    # Asigna permisos de forma simbólica  
 
 📝 Opciones más usadas:
 

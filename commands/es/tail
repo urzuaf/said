@@ -8,10 +8,10 @@ tail [opciones] [archivo]
 
 🔹 Ejemplos:
 
-tail archivo.txt   # Muestra las últimas 10 líneas (por defecto)  
-tail -5 archivo.txt   # Muestra las últimas 5 líneas  
-tail -f archivo.log   # Muestra nuevas líneas en tiempo real (útil para logs)  
-tail -c 50 archivo.txt   # Muestra los últimos 50 bytes  
+tail archivo.txt        # Muestra las últimas 10 líneas (por defecto)  
+tail -5 archivo.txt     # Muestra las últimas 5 líneas  
+tail -f archivo.log     # Muestra nuevas líneas en tiempo real (útil para logs)  
+tail -c 50 archivo.txt  # Muestra los últimos 50 bytes  
 
 📝 Opciones más usadas:
 

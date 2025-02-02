@@ -8,9 +8,9 @@ killall [opciones] nombre_comando
 
 🔹 Ejemplos:
 
-killall firefox   # Mata todos los procesos llamados "firefox"  
-killall -9 firefox   # Mata todos los procesos llamados "firefox" de forma forzada  
-killall -u usuario   # Mata todos los procesos del usuario especificado  
+killall firefox         # Mata todos los procesos llamados "firefox"  
+killall -9 firefox      # Mata todos los procesos llamados "firefox" de forma forzada  
+killall -u usuario      # Mata todos los procesos del usuario especificado  
 
 📝 Opciones más usadas:
 
