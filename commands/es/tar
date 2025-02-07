@@ -1,0 +1,27 @@
+Comando: tar
+
+📖 Descripción:
+Archiva y extrae archivos en formato .tar, con soporte para compresión.
+
+🛠️ Uso:
+
+tar [opciones] archivo.tar [archivos]
+
+🔹 Ejemplos:
+
+tar -cvf archivo.tar carpeta/           # Crea un archivo tar sin comprimir
+tar -czvf archivo.tar.gz carpeta/       # Crea un tar y lo comprime con gzip
+tar -xvf archivo.tar                    # Extrae un archivo tar
+tar -xzvf archivo.tar.gz                # Extrae un archivo tar.gz
+
+📝 Opciones más usadas:
+
+    -c → Crea un archivo tar
+    -x → Extrae un archivo tar
+    -v → Muestra detalles del proceso
+    -z → Comprime con gzip
+    -j → Comprime con bzip2
+    -f → Especifica el archivo de salida
+
+ℹ️ Información adicional:
+Para más detalles: man tar

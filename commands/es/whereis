@@ -1,0 +1,23 @@
+Comando: whereis
+
+📖 Descripción:
+Ubica la ruta de un binario, su código fuente y su documentación.
+
+🛠️ Uso:
+
+whereis [opciones] comando
+
+🔹 Ejemplos:
+
+whereis ls          # Muestra la ruta de `ls`  
+whereis python      # Muestra la ruta de `python`  
+whereis -b gcc      # Muestra solo la ruta del binario de `gcc`  
+
+📝 Opciones más usadas:
+
+    -b → Muestra solo la ubicación del binario
+    -m → Muestra solo la ubicación de los manuales
+    -s → Muestra solo la ubicación del código fuente
+
+ℹ️ Información adicional:
+Para más detalles: man whereis

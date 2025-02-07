@@ -1,0 +1,23 @@
+Comando: mount
+
+📖 Descripción:
+Monta sistemas de archivos o dispositivos en Linux.
+
+🛠️ Uso:
+
+mount [opciones] dispositivo punto_de_montaje
+
+🔹 Ejemplos:
+
+mount /dev/sdb1 /mnt            # Monta un disco en /mnt  
+mount -o ro /dev/sdb1 /mnt      # Monta en modo solo lectura  
+mount -t vfat /dev/sdb1 /mnt    # Especifica el tipo de sistema de archivos  
+
+📝 Opciones más usadas:
+
+    -o ro → Monta en modo solo lectura
+    -t → Especifica el tipo de sistema de archivos
+    -o remount,rw → Remonta un sistema de archivos como escritura
+
+ℹ️ Información adicional:
+Para más detalles: man mount

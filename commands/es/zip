@@ -1,0 +1,24 @@
+Comando: zip
+
+📖 Descripción:
+Comprime archivos y directorios en un archivo ZIP.
+
+🛠️ Uso:
+
+zip [opciones] archivo.zip archivo(s)
+
+🔹 Ejemplos:
+
+zip archivos.zip archivo1.txt archivo2.txt  # Comprime varios archivos
+zip -r backup.zip carpeta/                  # Comprime una carpeta recursivamente
+zip -e seguro.zip archivo.txt               # Crea un ZIP cifrado con contraseña
+
+📝 Opciones más usadas:
+
+    -r → Comprime carpetas de forma recursiva
+    -e → Cifra el archivo ZIP con contraseña
+    -9 → Usa la mejor compresión posible
+    -u → Agrega o actualiza archivos en un ZIP existente
+
+ℹ️ Información adicional:
+Para más detalles: man zip

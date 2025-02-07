@@ -1,0 +1,25 @@
+Comando: unzip
+
+📖 Descripción:
+Extrae archivos de un archivo ZIP.
+
+🛠️ Uso:
+
+unzip [opciones] archivo.zip
+
+🔹 Ejemplos:
+
+unzip archivos.zip              # Extrae todos los archivos
+unzip -l archivos.zip           # Lista el contenido sin extraer
+unzip -d carpeta archivos.zip   # Extrae en una carpeta específica
+unzip -o archivos.zip           # Sobrescribe archivos existentes
+
+📝 Opciones más usadas:
+
+    -l → Lista el contenido del ZIP
+    -d → Extrae archivos en una carpeta específica
+    -o → Sobrescribe archivos sin preguntar
+    -n → No sobrescribe archivos existentes
+
+ℹ️ Información adicional:
+Para más detalles: man unzip

@@ -1,0 +1,22 @@
+Comando: whatis
+
+📖 Descripción:
+Muestra una breve descripción de un comando.
+
+🛠️ Uso:
+
+whatis comando
+
+🔹 Ejemplos:
+
+whatis ls  # Muestra qué hace el comando `ls`  
+whatis grep  # Breve descripción de `grep`  
+whatis -r file  # Busca descripciones que contengan la palabra "file"  
+
+📝 Opciones más usadas:
+
+    -r PATRÓN → Busca comandos relacionados con un término
+    -l → Muestra la descripción completa sin truncar
+
+ℹ️ Información adicional:
+Para más detalles: man whatis

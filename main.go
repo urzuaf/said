@@ -10,33 +10,20 @@ func main() {
 	configure()
 	config := configurationObject.getConfiguration()
 
-	// if user inputs "search <keyword>"
-	if config.instruction == "search" && len(config.arguments) > 1 {
-		results := smartSearch(config.arguments)
-		if len(results) > 0 {
-			fmt.Println("Coincidencias encontradas:")
-			for _, result := range results {
-				fmt.Println(result)
-			}
-		} else {
-			fmt.Println("No se encontraron comandos relacionados con:", config.arguments)
-		}
-		return
-	}
+	// Check for optionals instructions like search and list
+	processInstruction(config.instruction, config.arguments)
 
 	if !isValidCommand(config.instruction) {
 		fmt.Println("Comando no reconocido:", config.instruction)
 		os.Exit(1)
 	}
 
-	// Construir la ruta completa al archivo
-	homeDir, err := os.UserHomeDir()
-	if err != nil {
-		fmt.Println("Error al obtener el directorio home:", err)
-		return
-	}
+	filepath := config.dataFolder + config.language + "/" + config.instruction
 
-	filepath := homeDir + "/.said/commands/" + config.language + "/" + config.instruction
+	if !FileExists(filepath) {
+		fmt.Println("No existe el archivo en la configuración solicitada")
+		os.Exit(1)
+	}
 
 	var filedata string
 

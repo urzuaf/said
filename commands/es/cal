@@ -1,0 +1,24 @@
+Comando: cal
+
+📖 Descripción:
+Muestra un calendario en la terminal.
+
+🛠️ Uso:
+
+cal [opciones] [mes] [año]
+
+🔹 Ejemplos:
+
+cal             # Muestra el calendario del mes actual  
+cal 2024        # Muestra el calendario de todo el año 2024  
+cal 07 2025     # Muestra el calendario de julio de 2025  
+ncal -w         # Muestra el número de semana en el calendario  
+
+📝 Opciones más usadas:
+
+    -y → Muestra el calendario del año completo
+    -m MES → Muestra el calendario de un mes específico
+    -3 → Muestra el mes actual junto con el anterior y el siguiente
+
+ℹ️ Información adicional:
+Para más detalles: man cal

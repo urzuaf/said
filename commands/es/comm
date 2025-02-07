@@ -1,0 +1,23 @@
+Comando: comm
+
+📖 Descripción:
+Compara dos archivos línea por línea y muestra las diferencias.
+
+🛠️ Uso:
+
+comm [opciones] archivo1 archivo2
+
+🔹 Ejemplos:
+
+comm archivo1.txt archivo2.txt      # Compara ambos archivos
+comm -1 archivo1.txt archivo2.txt   # Oculta las líneas únicas del primer archivo
+comm -3 archivo1.txt archivo2.txt   # Muestra solo líneas distintas entre los archivos
+
+📝 Opciones más usadas:
+
+    -1 → No muestra líneas únicas en el primer archivo
+    -2 → No muestra líneas únicas en el segundo archivo
+    -3 → No muestra líneas comunes
+
+ℹ️ Información adicional:
+Para más detalles: man comm

@@ -12,6 +12,7 @@ said [opciones] [instruccion] [argumentos]
     said mkdir              #Muestra ayuda para el comando mkdir
     said -e mkdir           #Muestra ayuda para el comando mkdir solo mostrando ejemplos
     said search files       #Muestra todos los comandos que tengan que ver con "files"
+    said list               #lista todos los comandos disponibles
     
 📝 Opciones más usadas:
 

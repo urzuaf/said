@@ -1,0 +1,27 @@
+Comando: ufw
+
+📖 Descripción:
+Firewall sencillo para gestionar reglas de tráfico en Linux.
+
+🛠️ Uso:
+
+ufw [comando] [opciones]
+
+🔹 Ejemplos:
+
+ufw enable      # Activa el firewall  
+ufw disable     # Desactiva el firewall  
+ufw allow 22    # Permite conexiones en el puerto 22 (SSH)  
+ufw deny 80     # Bloquea el puerto 80  
+ufw status      # Muestra el estado actual  
+
+📝 Opciones más usadas:
+
+    enable → Activa el firewall
+    disable → Desactiva el firewall
+    status → Muestra el estado actual
+    allow puerto → Permite tráfico en un puerto
+    deny puerto → Bloquea tráfico en un puerto
+
+ℹ️ Información adicional:
+Para más detalles: man ufw

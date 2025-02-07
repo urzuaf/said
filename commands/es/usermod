@@ -1,0 +1,26 @@
+Comando: usermod
+
+📖 Descripción:
+Modifica usuarios en el sistema.
+
+🛠️ Uso:
+
+usermod [opciones] nombre_usuario
+
+🔹 Ejemplos:
+
+sudo usermod -aG sudo usuario1          # Agrega "usuario1" al grupo sudo  
+sudo usermod -d /nuevo/home usuario2    # Cambia el directorio home de "usuario2"  
+sudo usermod -s /bin/zsh usuario3       # Cambia el shell de "usuario3" a Zsh  
+sudo usermod -l nuevo_nombre usuario4   # Cambia el nombre de usuario4  
+
+📝 Opciones más usadas:
+
+    -aG grupo → Agrega al usuario a un grupo sin quitarlo de otros
+    -d /ruta/home → Cambia el directorio home del usuario
+    -s /ruta/shell → Cambia el shell del usuario
+    -l nuevo_nombre → Cambia el nombre del usuario
+    -u UID → Cambia el UID del usuario
+
+ℹ️ Información adicional:
+Para más detalles: man usermod

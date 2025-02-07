@@ -1,0 +1,23 @@
+Comando: export
+
+📖 Descripción:
+Define variables de entorno en la sesión actual de la terminal.
+
+🛠️ Uso:
+
+export NOMBRE=valor
+
+🔹 Ejemplos:
+
+export PATH=$PATH:/usr/local/bin    # Agrega un directorio al PATH  
+export LANG=es_ES.UTF-8             # Cambia el idioma del sistema  
+export EDITOR=nano                  # Establece nano como editor predeterminado  
+
+📝 Opciones más usadas:
+
+    export VAR=valor → Define una variable de entorno
+    export -p → Lista todas las variables de entorno exportadas
+    export -n VAR → Elimina una variable exportada
+
+ℹ️ Información adicional:
+Para más detalles: man export

@@ -1,0 +1,23 @@
+Comando: traceroute
+
+📖 Descripción:
+Muestra la ruta que sigue un paquete hasta un destino en la red.
+
+🛠️ Uso:
+
+traceroute [opciones] destino
+
+🔹 Ejemplos:
+
+traceroute google.com       # Muestra la ruta hacia Google  
+traceroute -n google.com    # No resuelve nombres de dominio  
+traceroute -I google.com    # Usa ICMP en lugar de UDP  
+
+📝 Opciones más usadas:
+
+    -n → No resuelve nombres de dominio
+    -I → Usa paquetes ICMP en lugar de UDP
+    -T → Usa paquetes TCP en lugar de UDP
+
+ℹ️ Información adicional:
+Para más detalles: man traceroute

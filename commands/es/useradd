@@ -1,0 +1,26 @@
+Comando: useradd
+
+📖 Descripción:
+Crea un nuevo usuario en el sistema.
+
+🛠️ Uso:
+
+useradd [opciones] nombre_usuario
+
+🔹 Ejemplos:
+
+sudo useradd usuario1                   # Crea un nuevo usuario llamado "usuario1"  
+sudo useradd -m usuario2                # Crea "usuario2" con su directorio home  
+sudo useradd -s /bin/bash usuario3      # Asigna Bash como shell predeterminado  
+sudo useradd -G sudo usuario4           # Agrega "usuario4" al grupo "sudo"  
+
+📝 Opciones más usadas:
+
+    -m → Crea un directorio home para el usuario
+    -G grupo → Asigna el usuario a un grupo específico
+    -s /ruta/shell → Define el shell predeterminado
+    -d /ruta/home → Especifica un directorio home personalizado
+    -u UID → Especifica un ID de usuario personalizado
+
+ℹ️ Información adicional:
+Para más detalles: man useradd

@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"os/exec"
+	"text/tabwriter"
 )
 
 func stdoutReader(text string) {
@@ -26,4 +28,18 @@ func notStdoutReader(text string) {
 	cmd.Stderr = os.Stderr
 	err = cmd.Run()
 	Check(err)
+}
+
+func List(list []string) {
+	w := tabwriter.NewWriter(os.Stdout, 0, 0, 4, ' ', 0)
+
+	for i, item := range list {
+		fmt.Fprintf(w, item+"\t")
+		// we break lines every 3 items
+		if (i+1)%3 == 0 {
+			fmt.Fprintf(w, "\n")
+		}
+	}
+	fmt.Fprintf(w, "\n")
+	w.Flush()
 }

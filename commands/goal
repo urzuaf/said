@@ -39,27 +39,26 @@ DONE
     netstat - es
     pwd - es
     chown - es
-
+    zip - es 
+    unzip - es
+    ln - es
+    less - es
+    uname - es
+    tar - es
+    comm - es
+    export - es
+    mount - es
+    traceroute - es
+    ufw - es
+    iptables - es 
+    cal - es 
+    alias - es
+    dd - es
+    whereis - es
+    whatis - es
+    useradd - es
+    usermod - es
+    passwd - es
 INPROGRESS
 
 BACKLOG
-    zip - 
-    unzip - 
-    ln - 
-    less - 
-    uname - 
-    tar - 
-    comm - 
-    export - 
-    mount - 
-    traceroute - 
-    ufw - 
-    iptables - 
-    cal - 
-    alias - 
-    dd - 
-    whereis - 
-    whatis - 
-    useradd
-    usermod -
-    passwd - 

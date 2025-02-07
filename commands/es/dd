@@ -1,0 +1,28 @@
+Comando: dd
+
+📖 Descripción:
+Copia y convierte archivos o dispositivos de bajo nivel.
+
+🛠️ Uso:
+
+dd if=origen of=destino [opciones]
+
+🔹 Ejemplos:
+
+dd if=/dev/sda of=/dev/sdb bs=4M                    # Clona un disco  
+dd if=/dev/zero of=archivo.img bs=1M count=100      # Crea un archivo de 100 MB  
+dd if=imagen.iso of=/dev/sdb bs=4M                  # Crea un USB booteable  
+
+📝 Opciones más usadas:
+
+    if=archivo → Archivo de entrada
+    of=archivo → Archivo de salida
+    bs=NUM → Tamaño del bloque (ej. bs=4M)
+    count=NUM → Número de bloques a copiar
+    status=progress → Muestra progreso de la operación
+
+⚠️ Precaución:
+Usar dd incorrectamente puede sobrescribir datos sin posibilidad de recuperación.
+
+ℹ️ Información adicional:
+Para más detalles: man dd

@@ -1,0 +1,24 @@
+Comando: less
+
+📖 Descripción:
+Permite visualizar archivos de texto de forma paginada.
+
+🛠️ Uso:
+
+less archivo.txt
+
+🔹 Ejemplos:
+
+less archivo.log                # Abre un archivo para leerlo
+cat archivo.txt | less          # Muestra salida de otro comando en formato paginado
+less +G archivo.txt             # Abre el archivo en la última línea
+
+📝 Atajos útiles dentro de less:
+
+    Espacio → Avanza una página
+    b → Retrocede una página
+    /palabra → Busca "palabra" en el texto
+    q → Salir
+
+ℹ️ Información adicional:
+Para más detalles: man less

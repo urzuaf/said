@@ -1,0 +1,23 @@
+Comando: ln
+
+📖 Descripción:
+Crea enlaces simbólicos o duros entre archivos.
+
+🛠️ Uso:
+
+ln [opciones] archivo_origen enlace_destino
+
+🔹 Ejemplos:
+
+ln archivo.txt enlace.txt                       # Crea un enlace duro
+ln -s /ruta/archivo.txt enlace.txt              # Crea un enlace simbólico
+ln -s /usr/bin/python3 /usr/local/bin/python    # Enlace simbólico global
+
+📝 Opciones más usadas:
+
+    -s → Crea un enlace simbólico
+    -f → Fuerza la creación del enlace, sobrescribiendo si es necesario
+    -v → Muestra detalles del proceso
+
+ℹ️ Información adicional:
+Para más detalles: man ln

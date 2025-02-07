@@ -1,0 +1,24 @@
+Comando: alias
+
+📖 Descripción:
+Define alias para comandos en la terminal.
+
+🛠️ Uso:
+
+alias nombre='comando'
+
+🔹 Ejemplos:
+
+alias ll='ls -l'                                        # Crea un alias para `ls -l`  
+alias rm='rm -i'                                        # Protege de borrados accidentales  
+alias actualizar='sudo apt update && sudo apt upgrade'  # Alias para actualizar paquetes  
+
+📝 Opciones más usadas:
+
+    alias → Muestra todos los alias definidos
+    unalias nombre → Elimina un alias
+    alias nombre='comando' → Crea un alias
+
+ℹ️ Información adicional:
+Para hacer un alias permanente, agrégalo al archivo ~/.bashrc o ~/.zshrc.
+Para más detalles: man alias

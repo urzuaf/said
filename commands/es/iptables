@@ -1,0 +1,25 @@
+Comando: iptables
+
+📖 Descripción:
+Herramienta avanzada para configurar reglas de filtrado de red.
+
+🛠️ Uso:
+
+iptables [tabla] [comando] [regla]
+
+🔹 Ejemplos:
+
+iptables -L                                     # Lista las reglas actuales  
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT   # Permite conexiones en el puerto 80  
+iptables -A INPUT -p tcp --dport 22 -j DROP     # Bloquea conexiones SSH  
+iptables -F                                     # Borra todas las reglas  
+
+📝 Opciones más usadas:
+
+    -L → Lista las reglas actuales
+    -A → Agrega una nueva regla
+    -D → Elimina una regla específica
+    -F → Borra todas las reglas
+
+ℹ️ Información adicional:
+Para más detalles: man iptables
