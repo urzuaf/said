@@ -1,0 +1,23 @@
+Comando: shred
+
+📖 Descripción:
+Sobrescribe un archivo múltiples veces para dificultar su recuperación.
+
+🛠️ Uso:
+
+shred [opciones] archivo
+
+🔹 Ejemplos:
+
+shred -u archivo.txt                # Sobrescribe y elimina "archivo.txt"  
+shred -n 5 archivo.txt              # Sobrescribe "archivo.txt" 5 veces  
+shred -v archivo.txt                # Muestra el progreso mientras sobrescribe  
+
+📝 Opciones más usadas:
+
+    -u → Elimina el archivo después de sobrescribirlo
+    -n [veces] → Define el número de veces que se sobrescribe el archivo
+    -v → Muestra información sobre el proceso
+
+ℹ️ Información adicional:
+Para más detalles: man shred

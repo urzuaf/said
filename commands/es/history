@@ -1,0 +1,25 @@
+Comando: history
+
+📖 Descripción:
+Muestra el historial de comandos ejecutados en la terminal.
+
+🛠️ Uso:
+
+history [opciones] [número]
+
+🔹 Ejemplos:
+
+history                    # Muestra todo el historial de comandos  
+history 10                 # Muestra los últimos 10 comandos ejecutados  
+history -c                 # Borra todo el historial  
+history -d 25              # Borra la entrada número 25 del historial  
+
+📝 Opciones más usadas:
+
+    -c → Borra todo el historial de comandos
+    -d [n] → Borra la entrada número "n" del historial
+    !n → Ejecuta el comando número "n" en el historial
+    !! → Repite el último comando ejecutado
+
+ℹ️ Información adicional:
+Para más detalles: man history

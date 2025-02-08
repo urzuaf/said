@@ -1,0 +1,23 @@
+Comando: bzip2
+
+📖 Descripción:
+Herramienta de compresión para archivos, similar a gzip, pero con mejor ratio de compresión.
+
+🛠️ Uso:
+
+bzip2 [opciones] archivo
+
+🔹 Ejemplos:
+
+bzip2 archivo.txt                   # Comprime "archivo.txt" a "archivo.txt.bz2"  
+bzip2 -k archivo.txt                # Comprime sin eliminar el archivo original  
+bzip2 -d archivo.txt.bz2            # Descomprime "archivo.txt.bz2" a "archivo.txt"  
+
+📝 Opciones más usadas:
+
+    -k → Mantiene el archivo original después de la compresión
+    -d → Descomprime un archivo .bz2
+    -v → Muestra detalles del proceso de compresión
+
+ℹ️ Información adicional:
+Para más detalles: man bzip2

@@ -1,0 +1,23 @@
+Comando: gzip
+
+📖 Descripción:
+Comprime archivos, reduciendo su tamaño y generando un archivo .gz.
+
+🛠️ Uso:
+
+gzip [opciones] archivo
+
+🔹 Ejemplos:
+
+gzip archivo.txt                    # Comprime "archivo.txt" a "archivo.txt.gz"  
+gzip -k archivo.txt                 # Comprime sin eliminar el archivo original  
+gzip -d archivo.txt.gz              # Descomprime "archivo.txt.gz" a "archivo.txt"  
+
+📝 Opciones más usadas:
+
+    -k → Mantiene el archivo original después de la compresión
+    -d → Descomprime un archivo .gz
+    -v → Muestra detalles del proceso de compresión
+
+ℹ️ Información adicional:
+Para más detalles: man gzip

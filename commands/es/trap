@@ -1,0 +1,22 @@
+Comando: trap
+
+📖 Descripción:
+Captura señales del sistema y ejecuta comandos en respuesta dentro de un script.
+
+🛠️ Uso:
+
+trap 'comando' señal
+
+🔹 Ejemplos:
+
+trap 'echo "Saliendo..."' EXIT   # Muestra un mensaje antes de salir del script  
+trap 'rm archivo.tmp' INT        # Borra un archivo temporal si se interrumpe el script (Ctrl+C)  
+trap -l                          # Lista todas las señales disponibles  
+
+📝 Opciones más usadas:
+
+    -l → Muestra la lista de señales disponibles
+    '' (vacío) → Desactiva un trap previamente definido
+
+ℹ️ Información adicional:
+Para más detalles: man trap

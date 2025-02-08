@@ -1,0 +1,21 @@
+Comando: basename
+
+📖 Descripción:
+Extrae el nombre de archivo de una ruta de archivo.
+
+🛠️ Uso:
+
+basename [ruta] [sufijo]
+
+🔹 Ejemplos:
+
+basename /home/usuario/documento.txt        # Devuelve "documento.txt"  
+basename /home/usuario/documento.txt .txt   # Devuelve "documento" (elimina la extensión)  
+
+📝 Opciones más usadas:
+
+    -s [sufijo] → Elimina el sufijo especificado
+    -a → Procesa múltiples nombres de archivo
+
+ℹ️ Información adicional:
+Para más detalles: man basename

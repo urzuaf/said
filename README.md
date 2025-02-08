@@ -8,7 +8,7 @@ Said es una herramienta de línea de comandos diseñada para proporcionar ayuda 
 
 2. Copiar y pegar los siguientes comandos en una terminal de linux
 ```
-ZIP_URL="https://github.com/urzuaf/said/releases/download/v0.2.0/said.zip"
+ZIP_URL="https://github.com/urzuaf/said/releases/download/v0.3.0/said.zip"
 
 INSTALL_DIR="$HOME/.said"
 

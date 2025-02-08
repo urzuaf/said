@@ -1,0 +1,20 @@
+Comando: dirname
+
+📖 Descripción:
+Extrae el nombre del directorio de una ruta de archivo.
+
+🛠️ Uso:
+
+dirname [ruta]
+
+🔹 Ejemplos:
+
+dirname /home/usuario/documento.txt    # Devuelve "/home/usuario"  
+dirname /etc/nginx/nginx.conf          # Devuelve "/etc/nginx"  
+
+📝 Opciones más usadas:
+
+    No tiene muchas opciones adicionales, pero se puede usar con basename para separar nombres y rutas de archivos.
+
+ℹ️ Información adicional:
+Para más detalles: man dirname

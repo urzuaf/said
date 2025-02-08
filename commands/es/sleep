@@ -1,0 +1,26 @@
+Comando: sleep
+
+📖 Descripción:
+Pausa la ejecución de un programa o script por un período de tiempo especificado.
+
+🛠️ Uso:
+
+sleep [duración][s/m/h/d]
+
+🔹 Ejemplos:
+
+sleep 5s         # Pausa la ejecución por 5 segundos  
+sleep 2m         # Pausa la ejecución por 2 minutos  
+sleep 1h         # Pausa la ejecución por 1 hora  
+sleep 0.5        # Pausa la ejecución por medio segundo  
+
+📝 Opciones más usadas:
+No tiene muchas opciones, pero se puede usar con diferentes unidades de tiempo:
+
+    s → segundos (por defecto)
+    m → minutos
+    h → horas
+    d → días
+
+ℹ️ Información adicional:
+Para más detalles: man sleep

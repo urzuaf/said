@@ -1,0 +1,23 @@
+Comando: stat
+
+📖 Descripción:
+Muestra información detallada sobre un archivo o directorio.
+
+🛠️ Uso:
+
+stat [opciones] [archivo]
+
+🔹 Ejemplos:
+
+stat archivo.txt             # Muestra información completa del archivo  
+stat -c "%s bytes" archivo.txt   # Muestra solo el tamaño del archivo en bytes  
+stat -f /home                # Muestra información del sistema de archivos  
+
+📝 Opciones más usadas:
+
+    -c [formato] → Permite definir un formato de salida personalizado
+    -f → Muestra información sobre el sistema de archivos en lugar del archivo
+    --printf → Similar a -c, pero más flexible
+
+ℹ️ Información adicional:
+Para más detalles: man stat

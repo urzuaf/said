@@ -1,0 +1,16 @@
+Comando: fg
+
+📖 Descripción:
+Trae un trabajo en segundo plano de vuelta al primer plano.
+
+🛠️ Uso:
+
+fg [número de trabajo]
+
+🔹 Ejemplos:
+
+fg                       # Trae el último trabajo en segundo plano al primer plano  
+fg %1                    # Trae el trabajo con ID 1 al primer plano  
+
+ℹ️ Información adicional:
+Para más detalles: man fg

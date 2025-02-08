@@ -1,0 +1,22 @@
+Comando: gunzip
+
+📖 Descripción:
+Descomprime archivos .gz creados con gzip.
+
+🛠️ Uso:
+
+gunzip [opciones] archivo.gz
+
+🔹 Ejemplos:
+
+gunzip archivo.txt.gz              # Descomprime "archivo.txt.gz" a "archivo.txt"  
+gunzip -k archivo.txt.gz           # Descomprime sin eliminar el archivo original  
+
+📝 Opciones más usadas:
+
+    -k → Mantiene el archivo comprimido después de descomprimir
+    -c → Muestra el contenido descomprimido en la salida estándar
+    -v → Muestra detalles del proceso de descompresión
+
+ℹ️ Información adicional:
+Para más detalles: man gunzip

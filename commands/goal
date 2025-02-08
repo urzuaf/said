@@ -59,6 +59,23 @@ DONE
     useradd - es
     usermod - es
     passwd - es
+    history - es
+    sleep - es
+    basename - es
+    dirname - es
+    stat - es
+    hostname - es
+    groups - es
+    id - es
+    xargs - es
+    bzip2 - es
+    gunzip - es
+    gzip - es
+    shred - es
+    fg - es
+    bg - es
+    jobs - es
+    trap - es
 INPROGRESS
 
 BACKLOG

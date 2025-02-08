@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ZIP_URL="https://github.com/urzuaf/said/releases/download/v0.2.0/said.zip"
+ZIP_URL="https://github.com/urzuaf/said/releases/download/v0.3.0/said.zip"
 
 INSTALL_DIR="$HOME/.said"
 

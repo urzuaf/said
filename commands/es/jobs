@@ -1,0 +1,22 @@
+Comando: jobs
+
+📖 Descripción:
+Muestra la lista de trabajos en segundo plano y su estado.
+
+🛠️ Uso:
+
+jobs [opciones]
+
+🔹 Ejemplos:
+
+jobs                     # Muestra todos los trabajos en segundo plano  
+jobs -l                  # Muestra el ID de proceso (PID) de cada trabajo  
+jobs -p                  # Muestra solo los PID de los trabajos activos  
+
+📝 Opciones más usadas:
+
+    -l → Muestra los PID de los trabajos
+    -p → Muestra solo los PID sin detalles adicionales
+
+ℹ️ Información adicional:
+Para más detalles: man jobs

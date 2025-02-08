@@ -1,0 +1,23 @@
+Comando: xargs
+
+📖 Descripción:
+Toma entrada estándar y la convierte en argumentos para ejecutar un comando.
+
+🛠️ Uso:
+
+comando | xargs [opciones] [comando]
+
+🔹 Ejemplos:
+
+echo "archivo1 archivo2 archivo3" | xargs rm        # Elimina los archivos listados  
+ls | xargs -n 1 echo "Archivo:"                     # Imprime "Archivo:" antes de cada nombre de archivo  
+find . -type f -name "*.txt" | xargs grep "hola"    # Busca "hola" en todos los archivos .txt  
+
+📝 Opciones más usadas:
+
+    -n [número] → Procesa "n" argumentos por ejecución del comando
+    -I {} → Permite definir un marcador de posición para cada entrada
+    -0 → Permite manejar nombres de archivo con espacios cuando se usa con find -print0
+
+ℹ️ Información adicional:
+Para más detalles: man xargs

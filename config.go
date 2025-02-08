@@ -11,6 +11,7 @@ import (
 type Config struct {
 	quickExamples bool
 	lessOutput    bool
+	version       bool
 	dataFolder    string
 	language      string
 	instruction   string
@@ -42,10 +43,11 @@ func configure() {
 	configurationObject = Config{
 		quickExamples: flags["e"],
 		lessOutput:    flags["l"],
+		version:       flags["v"],
 		dataFolder:    homeDir + configfile["datafolder"],
 		language:      configfile["language"],
-		instruction:   instruction["instruction"],
-		arguments:     instruction["arguments"],
+		instruction:   strings.ToLower(instruction["instruction"]),
+		arguments:     strings.ToLower(instruction["arguments"]),
 	}
 }
 
@@ -73,12 +75,14 @@ func getCommand() map[string]string {
 func parseFlags() map[string]bool {
 	qEx := flag.Bool("e", false, "return only examples")
 	lOut := flag.Bool("l", false, "Dont print in standard output")
+	version := flag.Bool("v", false, "show said version")
 
 	flag.Parse()
 
 	var flags = map[string]bool{
 		"e": *qEx,
 		"l": *lOut,
+		"v": *version,
 	}
 	return flags
 

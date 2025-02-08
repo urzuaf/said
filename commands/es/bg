@@ -1,0 +1,16 @@
+Comando: bg
+
+📖 Descripción:
+Reanuda un trabajo detenido en segundo plano.
+
+🛠️ Uso:
+
+bg [número de trabajo]
+
+🔹 Ejemplos:
+
+bg                       # Reanuda el último trabajo detenido en segundo plano  
+bg %2                    # Reanuda el trabajo con ID 2 en segundo plano  
+
+ℹ️ Información adicional:
+Para más detalles: man bg

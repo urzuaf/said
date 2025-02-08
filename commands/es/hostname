@@ -1,0 +1,24 @@
+Comando: hostname
+
+📖 Descripción:
+Muestra o configura el nombre del host del sistema.
+
+🛠️ Uso:
+
+hostname [opciones]
+
+🔹 Ejemplos:
+
+hostname                  # Muestra el nombre del host actual  
+hostname nuevo-host       # Cambia el nombre del host (requiere permisos de root)  
+hostname -I               # Muestra la dirección IP del sistema  
+
+📝 Opciones más usadas:
+
+    -I → Muestra las direcciones IP del sistema
+    -f → Muestra el nombre de host completamente calificado (FQDN)
+    -d → Muestra el dominio del host
+    -s → Muestra solo el nombre corto del host
+
+ℹ️ Información adicional:
+Para más detalles: man hostname

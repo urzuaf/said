@@ -1,0 +1,26 @@
+Comando: id
+
+📖 Descripción:
+Muestra la información del usuario y grupo, como el ID de usuario (UID) y el ID de grupo (GID).
+
+🛠️ Uso:
+
+id [opciones] [usuario]
+
+🔹 Ejemplos:
+
+id                      # Muestra el UID, GID y grupos del usuario actual  
+id john                 # Muestra la información del usuario "john"  
+id -u                   # Muestra solo el UID del usuario actual  
+id -g                   # Muestra solo el GID del usuario actual  
+id -G                   # Muestra todos los grupos del usuario actual  
+
+📝 Opciones más usadas:
+
+    -u → Muestra solo el UID del usuario
+    -g → Muestra solo el GID del usuario
+    -G → Muestra todos los GID de los grupos a los que pertenece el usuario
+    -n → Muestra los nombres en lugar de los números
+
+ℹ️ Información adicional:
+Para más detalles: man id

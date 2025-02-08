@@ -1,0 +1,19 @@
+Comando: groups
+
+📖 Descripción:
+Muestra los grupos a los que pertenece un usuario.
+
+🛠️ Uso:
+
+groups [usuario]
+
+🔹 Ejemplos:
+
+groups                      # Muestra los grupos del usuario actual  
+groups john                 # Muestra los grupos del usuario "john"  
+
+📝 Opciones más usadas:
+No tiene muchas opciones adicionales, pero se puede combinar con id para obtener más detalles.
+
+ℹ️ Información adicional:
+Para más detalles: man groups
