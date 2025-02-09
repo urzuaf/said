@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="prism.css" rel="stylesheet" />
+
+	<script src="prism.js"></script>
+    <!-- Import tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+     
+    <title>Said - Guia de comandos de Linux</title>
+</head>
+
+<body class="px-8 py-16  flex flex-col gap-10 bg-zinc-800 text-gray-200 lg:w-3/5 mx-auto">
+    <header class="flex flex-col gap-4 mt-20 ">
+        <div>
+            <h1 class="md:text-3xl text-2xl font-bold">SAID - Guía de Comandos de Linux 🐧</h1>
+        </div>
+        <p>
+            SAID es una herramienta que proporciona información rápida y útil sobre
+            comandos de Linux. Con SAID, puedes obtener descripciones, ejemplos de uso y opciones avanzadas para cada comando.  
+
+        </p>
+    </header>
+    <section class="flex flex-col gap-4">
+        <h2 class="text-2xl font-bold">🚀 Instalación</h2>
+        <p>Simplemente copia y pega el siguiente comando en una terminal de Linux:</p>
+        <pre class=""><code id="inst" class="lang-bash"></code></pre>
+    </section>
+    <section class="flex flex-col gap-4  ">
+        <h2 class="text-xl font-bold">🚀 Funcionalidades</h2>
+        <h3 class="text-lg font-semibold">📌 Consultar un comando</h3>
+        <p>Muestra información detallada sobre un comando específico.</p>
+        <pre class=""><code class="lang-bash">said grep</code></pre>
+        <pre  class=""><code id="ge" class="lang-bash"></code></pre>
+    </section>
+    <section class="flex flex-col gap-4  ">
+        <h3 class="text-lg font-semibold">🔍 Buscar comandos</h3>
+        <p>Encuentra comandos relacionados con una palabra clave en su descripción.</p>
+        <pre class=""><code class="lang-bash">said search usuario</code></pre>
+        <pre class=""><code id="se" class="lang-bash"></code></pre>
+    </section>
+    <section class="flex flex-col gap-4  ">
+        <h3 class="text-lg font-semibold">🌐 Más información</h3>
+        <p>
+            🐙 GitHub:
+            <a href="https://github.com/urzuaf/said">https://github.com/urzuaf/said</a>
+        </p>
+    </section>
+    <footer class="flex flex-col gap-4 mt-20 ">
+        <h2 class="text-xl font-bold">📢 SAID</h2>
+        <hr />
+        <p class="text-center">
+             Aprende y domina los comandos de Linux de manera rápida y
+            sencilla! 🚀
+        </p>
+    </footer>
+
+    <script src="text.js"></script>
+</body>
+<style>
+    *{
+        font-family: "Poppins", serif;
+    }
+    pre {
+        text-align: left;
+        overflow-x: scroll;
+        font-family: "Roboto Mono", serif;
+        font-optical-sizing: auto;
+
+    }
+    
+</style>
+
+</html>
