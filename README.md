@@ -123,4 +123,14 @@ uniq          cal         tree
 uname         export    
 ```
 
+## 🗑️ Desinstalar
+
+```
+#Delete the said binary
+sudo rm /usr/bin/said
+
+#Delete the said data
+sudo rm -r ~/.said/*
+```
+
 ¡Esperamos que Said sea una herramienta útil en tu terminal! 🚀
