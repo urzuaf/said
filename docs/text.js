@@ -7,34 +7,7 @@ const doneVG = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0
 </svg>
 `
 
-let instalation = `ZIP_URL="https://github.com/urzuaf/said/releases/download/v0.3.0/said.zip"
-
-INSTALL_DIR="$HOME/.said"
-
-# Directorio de binarios 
-BIN_DIR="/usr/bin"
-
-# Verificar si el directorio de instalación existe, si no, crear
-if [ ! -d "$INSTALL_DIR" ]; then
-    echo "Creando directorio de instalación en $INSTALL_DIR..."
-    mkdir -p "$INSTALL_DIR"
-fi
-
-echo "Descargando el archivo ..."
-curl -L "$ZIP_URL" -o "$INSTALL_DIR/said.zip"
-
-echo "Extrayendo el archivo ..."
-unzip -q "$INSTALL_DIR/said.zip" -d "$INSTALL_DIR"
-
-chmod +x "$INSTALL_DIR/said" 
-
-echo "moviendo el binario a /usr/bin"
-sudo mv $INSTALL_DIR/said $BIN_DIR/said
-
-rm "$INSTALL_DIR/said.zip"
-
-echo "¡Instalación completada!" 
-`
+let instalation = `curl https://raw.githubusercontent.com/urzuaf/said/main/install.sh | bash`
 
 let grepExample = `Comando: grep
         
@@ -65,11 +38,7 @@ let searchExample = `Coincidencias encontradas:
 - sudo:   Permite ejecutar un comando con privilegios de superusuario o como otro usuario
 `
 
-let uninstall = `#Delete the said binary
-sudo rm /usr/bin/said
-
-#Delete the said data
-sudo rm -r ~/.said/*`
+let uninstall = `curl https://raw.githubusercontent.com/urzuaf/said/main/uninstall.sh | bash`
 
 document.getElementById("inst").innerHTML = instalation;
 document.getElementById("ge").innerHTML = grepExample;
@@ -77,11 +46,15 @@ document.getElementById("se").innerHTML = searchExample;
 document.getElementById("un").innerHTML = uninstall;
 
 function addCopyButton(codeElement) {
+    if (codeElement.innerText.includes("Muestra")){
+        return
+    }
     const button = document.createElement("button");
     button.innerHTML = copySVG
-    button.style.position = "absolute";
+    button.style.position = "absolute"; 
     button.style.top = "8px";
     button.style.right = "8px";
+    button.style.zIndex = "10"; 
     button.style.cursor = "pointer";
     button.style.fontSize = "16px";
     button.style.borderRadius = "8px";
@@ -100,13 +73,12 @@ function addCopyButton(codeElement) {
     
     button.addEventListener("click", () => {
         navigator.clipboard.writeText(codeElement.innerText).then(() => {
-            button.innerHTML = doneVG;
+            button.style.color = "#1dbc60";
             setTimeout(() => button.innerHTML=copySVG, 1500);
         });
     });
 
     pre.appendChild(button);
 }
-
 
 document.querySelectorAll("code").forEach(addCopyButton);
